@@ -1,0 +1,187 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+  
+}
+
+.container1 {
+    
+    display: flex;
+    height: 7vh;
+    gap: 4%;
+    
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+
+}
+
+.container2 {
+    margin-top: 70px;
+    padding: 20px;
+    height: 90vh;
+    
+    background-position: center;
+}
+
+.row {
+    display: flex;
+}
+
+.col1, .col2 {
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.fade {
+   
+    border-radius: 10%;
+    height:450px
+}
+
+.text-control {
+    line-height: 1.5;
+    margin-bottom: 20px;
+    padding: 10px;
+    word-wrap: break-word;
+    font-size: 20px;
+}
+
+
+.button {
+    background-color: black;
+    color: white;
+    height: 60px;
+    border-radius: 7px;
+    width: 200px;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+}
+.container3
+{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+   
+ 
+}
+
+
+.container4 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: center;
+    height:100vh
+}
+
+.skill {
+    width: calc(100% / 6 - 20px); /* Adjust width to fit 6 skills per row */
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease;
+    margin-top: 100px;
+}
+
+.skill img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.skill h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.skill:hover {
+    transform: scale(1.1); /* Increase size on hover */
+}
+
+.skill:hover img {
+    transform: scale(1.2); /* Increase image size on hover */
+}
+.c1
+{
+    display:flex;
+    justify-content: center;
+}
+a {
+    text-decoration: none; /* Removes underline */
+    color: inherit; /* Inherits color from parent */
+}
+/* index.css */
+
+.container5 {
+    text-align: center; /* Center align content */
+    width: 80vh;
+    margin: 0 auto; /* Center container horizontally */
+    
+}
+
+.container5 h2 {
+    margin-bottom: 20px; /* Add space below heading */
+}
+
+.container5 input[type="text"],
+.container5 textarea {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding inside input and textarea */
+    margin-bottom: 10px; /* Add space below input and textarea */
+    box-sizing: border-box; /* Include padding and border in width */
+    font-size: 16px; /* Font size */
+    border: 1px solid #ccc; /* Border with light gray color */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.container5 textarea {
+    resize: vertical; /* Allows vertical resizing only */
+}
+
+.container5 button {
+    background-color:black; /* Button background color */
+    color: white; /* Button text color */
+    padding: 10px 20px; /* Padding inside button */
+    border: none; /* Remove default button border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    font-size: 16px; /* Font size */
+}
+
+.container5 button:hover {
+    background-color: black; /* Darker background color on hover */
+}
+/* index.css */
+
+.container6 {
+    height: 150px;
+    margin-top: 200px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container6 p {
+    margin-top: 10px; /* Adds a gap between the text and the email */
+}
+
